@@ -1,7 +1,9 @@
 # Graph Analytics & Entity Resolution: Art Markets, PEPs, & Corporate Shells
 
 > **Analytical Track:** Graph Analytics & Entity Resolution
+> 
 > **Regulatory Anchor:** MAS Notice 626 (Paragraph 6 & ECDD for PEPs/UBOs) | FATF Art Market Guidance
+> 
 > **Project Status:** In Progress (Phase 1: Target Entity Ingestion & Fuzzy Matching Logic)
 
 ---
