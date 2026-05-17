@@ -27,48 +27,48 @@ This repository houses the automated entity resolution and relational network gr
 ```
 
 ### Repository Blueprints
-* [cite_start]`notebooks/`: Active workspace containing data parsing, algorithmic string matching, and network generation loops[cite: 810].
-* [cite_start]`data/`: Protected infrastructure split into `raw/` ingestion dumps and `processed/` master intersection ledgers[cite: 811].
-* [cite_start]`outputs/`: Container reserved for compiled directed network visualizations and centrality vector mappings[cite: 812].
-* [cite_start]`docs/`: Regulatory mapping ledgers aligning surfaced graph clusters to actionable compliance alerts[cite: 813].
+* `notebooks/`: Active workspace containing data parsing, algorithmic string matching, and network generation loops.
+* `data/`: Protected infrastructure split into `raw/` ingestion dumps and `processed/` master intersection ledgers.
+* `outputs/`: Container reserved for compiled directed network visualizations and centrality vector mappings.
+* `docs/`: Regulatory mapping ledgers aligning surfaced graph clusters to actionable compliance alerts.
 
 ---
 
 ## II. Pipeline Methodology & String Matching Mathematics
 
-[cite_start]The operational core of this engine relies on a modular ingestion architecture that standardizes unstructured string variants before passing them to a vector-optimized scoring matrix[cite: 814].
+The operational core of this engine relies on a modular ingestion architecture that standardizes unstructured string variants before passing them to a vector-optimized scoring matrix.
 
 ### 1. Deterministic Normalization
-[cite_start]To prevent corporate suffixes and localized syntax noise from artificially inflating match confidence scores, raw strings undergo strict string preprocessing[cite: 815]:
+To prevent corporate suffixes and localized syntax noise from artificially inflating match confidence scores, raw strings undergo strict string preprocessing:
 
 $$\text{String}_{\text{Normalized}} = \text{Lower}\left(\text{RegexRemove}\left(\text{String}_{\text{Raw}}, \text{Suffixes} \cup \text{Punctuation}\right)\right)$$
 
 ### 2. Algorithmic Token Alignment
-[cite_start]Standard Levenshtein distance fails when encountering structural name inversions (e.g., `"Vladimir Potanin"` vs. `"Potanin, Vladimir"`)[cite: 816]. [cite_start]To bypass this limitation, the engine enforces a Token Sort Ratio calculation[cite: 817]. [cite_start]Ingested names are tokenized, alphabetized, and reconciled back to a unified string primitive to isolate the fundamental distance metric[cite: 818]:
+Standard Levenshtein distance fails when encountering structural name inversions (e.g., `"Vladimir Potanin"` vs. `"Potanin, Vladimir"`)[cite: 816]. [cite_start]To bypass this limitation, the engine enforces a Token Sort Ratio calculation. Ingested names are tokenized, alphabetized, and reconciled back to a unified string primitive to isolate the fundamental distance metric:
 
 $$\text{Match Score} = \text{TokenSortRatio}\left(\text{Entity}_{\text{Target}}, \text{Entity}_{\text{Reference}}\right)$$
 
 ### 3. Resolution Risk Thresholds
-[cite_start]A standard linear baseline is discarded[cite: 819]. [cite_start]To control false-positive tracking spikes while systematically capturing hidden relationships, a hard thresholding matrix is enforced[cite: 820]:
+A standard linear baseline is discarded. To control false-positive tracking spikes while systematically capturing hidden relationships, a hard thresholding matrix is enforced:
 
-* **Score $\ge$ 90%**: Deterministic Flag. [cite_start]Automatic mapping into the master processed ledger[cite: 820, 821].
-* **Score 85% – 89%**: High-Probability Risk. [cite_start]Isolated for secondary structural verification across the network graph layers[cite: 821, 822].
-* **Score < 85%**: Administrative Noise. [cite_start]Discarded automatically to minimize pipeline friction[cite: 822, 823].
+* **Score $\ge$ 90%**: Deterministic Flag. Automatic mapping into the master processed ledger.
+* **Score 85% – 89%**: High-Probability Risk. Isolated for secondary structural verification across the network graph layers.
+* **Score < 85%**: Administrative Noise. Discarded automatically to minimize pipeline friction
 
 ---
 
 ## III. Execution Instructions
 
 ### Technical Core
-* [cite_start]**Language:** Python 3.11+ [cite: 824]
-* [cite_start]**Primary Libraries:** `pandas`, `rapidfuzz`, `networkx`, `matplotlib` [cite: 824]
+* **Language:** Python 3.11+ 
+* **Primary Libraries:** `pandas`, `rapidfuzz`, `networkx`, `matplotlib` 
 
 ### Getting Started
-[cite_start]To prepare your environment, install the direct C-compiled string optimization engine and required dependencies[cite: 750, 824]:
+To prepare your environment, install the direct C-compiled string optimization engine and required dependencies:
 
 ```bash
 pip install rapidfuzz pandas openpyxl networkx
 ```
 
 ---
-[cite_start]Part of a digital ecosystem showcasing financial systems intelligence at [Roo's Observatory](https://roo-s-observatory.vercel.app)[cite: 796].
+Part of a digital ecosystem showcasing financial systems intelligence at [Roo's Observatory](https://roo-s-observatory.vercel.app).
