@@ -1,8 +1,8 @@
 # Graph Analytics & Entity Resolution: Art Markets, PEPs, & Corporate Shells
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Roo's%20Observatory-amber?style=flat-square)](https://roo-s-observatory.vercel.app)
-[![Pipeline Status](https://img.shields.io/badge/Pipeline-Phase%201%20In%20Progress-vibrantgreen?style=flat-square)]()
-[![Domain](https://img.shields.io/badge/Domain-Financial%20Systems%20Intelligence-blue?style=flat-square)]()
+> **Analytical Track:** Graph Analytics & Entity Resolution
+> **Regulatory Anchor:** MAS Notice 626 (Paragraph 6 & ECDD for PEPs/UBOs) | FATF Art Market Guidance
+> **Project Status:** In Progress (Phase 1: Target Entity Ingestion & Fuzzy Matching Logic)
 
 ---
 
